@@ -56,9 +56,9 @@ public class ProdutoServiceTest {
 	
 	@Test
 	public void alterarCliente() throws TipoChaveNaoEncontradaException, DAOException {
-		produto.setNome("Rodrigo Pires");
+		produto.setNome("Nivaldo F");
 		produtoService.alterar(produto);
 		
-		Assert.assertEquals("Rodrigo Pires", produto.getNome());
+		Assert.assertEquals("Nivaldo F", produto.getNome());
 	}
 }
